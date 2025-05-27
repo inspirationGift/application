@@ -1,0 +1,30 @@
+{
+  "name": "parcel-react-client-starter",
+  "private": true,
+  "version": "0.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel -p 3000",
+    "build": "parcel build",
+    "clean": "rm -rf dist .parcel-cache node_modules",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@atlaskit/dynamic-table": "^18.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.0.0-beta.3",
+    "jest-environment-jsdom": "^30.0.0-beta.3",
+    "parcel": "^2.14.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3"
+  }
+}
