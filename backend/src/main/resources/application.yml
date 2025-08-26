@@ -30,4 +30,4 @@ logging:
 server:
   port: 8080
 
-test: 1
+test: 2
