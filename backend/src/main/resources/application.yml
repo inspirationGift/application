@@ -30,5 +30,5 @@ logging:
 server:
   port: 8080
 
-test: 2
+test: 3
 test_7: 7
