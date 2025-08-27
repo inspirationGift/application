@@ -31,3 +31,4 @@ server:
   port: 8080
 
 test: 2
+test_4: 2
